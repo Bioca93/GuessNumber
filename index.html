@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide=width, initial=scale=1.0">
+    <title>GuessNumber</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/styles.css">
+   
+   
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300&family=Roboto:ital,wght@1,100;1,300&family=Twinkle+Star&family=Ubuntu:ital,wght@0,700;1,300;1,500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<header>
+    <a href="#"><h1>GuessNumber</h1></a>
+</header>
+
+<main class="container">
+    <form>
+        <label for="kick"> Digite um número (0-10): </label>
+        <input type="number" id="kick" max="10" placeholder="0">
+
+        <button type="submit">Jogar!</button>
+    </form>
+    <section class="result box" id="result"> 
+        <h2 id="status">Adivinhe o número sorteado!</h2>
+        <span id="attempt">Tentativas: 0 </span>
+    </section>
+
+    <button id="bttnRestart">Jogar de Novo!</button>
+</main>
+
+<footer>
+     <p>GuessNumber - Beatriz Ressurreição, 2023 &copy;</p>
+</footer>
+
+</body>
+
+</html>
